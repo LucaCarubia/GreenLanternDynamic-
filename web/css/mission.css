@@ -16,6 +16,9 @@ main
    main {
        max-width: 1140px;
    }
+   img {
+       width: 720px;
+   }
 }
 h1
 {
