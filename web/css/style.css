@@ -1,102 +1,127 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
-main
+
+main 
 {
-   width: 90%;
-   margin-left: auto;
-   margin-right: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (min-width: 768px)
 {
-   main {
-       max-width: 720px;
-   }
+    main {
+        max-width: 720px;
+    }
 }
+
 @media (min-width: 1200px)
 {
-   main {
-       max-width: 1140px;
-   }
+    main {
+        max-width: 1140px;
+    }
 }
+
 h1
 {
-   font-size: 34px;
-   color: ;
-   font-family: 'Bangers', cursive;
+    font-size: 34px;
+    color: ;
+    font-family: 'Bangers', cursive;
 }
 h2
 {
-   font-size: 24px;
-   color: ;
-   font-family: 'Bangers', cursive;
+    font-size: 24px;
+    color: ;
+    font-family: 'Bangers', cursive;
 }
 p
 {
-   font-size: 16px;
-   color: ;
-   font-family: ;
+    font-size: 16px;
+    color: ;
+    font-family: ;
 }
 a
 {
-   text-decoration: none;
+    text-decoration: none;
 }
+
 /* DISPLAY */
+
 .block
 {
-   display: block;
+    display: block;
 }
+
 /* FLEX */
+
 .flex
 {
-   display: flex;
+    display: flex;
 }
 .flex-column
 {
-   flex-direction: column;
+    flex-direction: column;
 }
 .space-around
 {
-   justify-content: space-around;
+    justify-content: space-around;
 }
 .space-between
 {
-   justify-content: space-between;
+    justify-content: space-between;
 }
 .flex-h-center, .flex-center
 {
-   justify-content: center;
+    justify-content: center;
 }
 .flex-v-center, .flex-center
 {
-   align-items: center;
+    align-items: center;
 }
 .flex-v-start
 {
-   flex-direction: start;
+    flex-direction: start;
 }
 .flex-v-end
 {
-   flex-direction: end;
+    flex-direction: end;
 }
 .flex-row-reverse
 {
-   flex-direction: row-reverse
+    flex-direction: row-reverse
 }
+
 /* WIDTH */
+
 .width-100
 {
-   width: 100%;
+    width: 100%;
+}
+.width-90
+{
+    width: 90%;
+}
+.width-80
+{
+    width: 80%;
 }
 .width-50
 {
-   width: 50%;
+    width: 50%;
 }
+.width-25
+{
+    width: 25%;
+}
+
 /* MARGIN */
+
 .margin-bot-40
 {
-   margin-bottom: 40px;
+    margin-bottom: 40px;
 }
+
 /* TEXT ALGIN */
+
 .text-justify
 {
-   text-align: justify;
+    text-align: justify;
 }
