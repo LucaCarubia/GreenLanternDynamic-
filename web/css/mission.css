@@ -5,31 +5,16 @@ main
    margin-left: auto;
    margin-right: auto;
 }
-@media (min-width: 768px)
-{
-   main {
-       max-width: 720px;
-   }
-}
-@media (min-width: 1200px)
-{
-   main {
-       max-width: 1140px;
-   }
-   img {
-       width: 720px;
-   }
-}
 h1
 {
    font-size: 34px;
-   color: blue;
+   color: rgb(65, 182, 75);
    font-family: 'Bangers', cursive;
 }
 h2
 {
    font-size: 24px;
-   color: ;
+   color: rgb(48, 117, 53);
    font-family: 'Bangers', cursive;
 }
 p
@@ -42,6 +27,31 @@ a
 {
    text-decoration: none;
 }
+@media (min-width: 768px)
+{
+   main {
+       max-width: 720px;
+   }  
+}
+@media (min-width: 1200px)
+{
+   main {
+       max-width: 1140px;
+   }
+   h1 img {
+       width: 720px;
+   }
+    .missions13 {
+        display: flex;
+        width: 50%;
+    }
+    .mission2 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 50%;
+        justify-content: flex-end;
+    }
+}    
 /* DISPLAY */
 .block
 {
