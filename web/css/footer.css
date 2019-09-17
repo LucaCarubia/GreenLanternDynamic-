@@ -1,0 +1,42 @@
+.socialnetwork a {
+    margin-right: 30px;
+}
+a
+{
+   text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 24px;
+   color: ;
+   font-family: 'Bangers', cursive;
+}
+p{
+    color: brown;
+}
+h2
+{
+   font-size: 24px;
+   color: ;
+   font-family: 'Bangers', cursive;
+}
+footer{
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+@media (min-width: 768px)
+{
+   main {
+       max-width: 720px;
+   }
+}
+@media (min-width: 1200px)
+{
+   main {
+       max-width: 1140px;
+   }
+}
