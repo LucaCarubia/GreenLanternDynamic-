@@ -25,17 +25,17 @@
         </article>
 
         <hr>
-        <form>
-            <h2>Formulaire de contact</h2>
+        <form name="contact">
+            <h2>Formulaire de contact</h2>  
             <ul class="form-style-1">
                 <li><label>Nom Complet <span class="required">*</span></label>
-                    <input type="text" name="field1"
+                    <input type="text" name="firstName" required
                         class="field-divided" placeholder="Nom" />
-                    <input type="text" name="field2"
+                    <input type="text" name="lastName" required
                         class="field-divided" placeholder="Prénom" /></li>
                 <li>
                     <label>Email <span class="required">*</span></label>
-                    <input type="email" name="field3" class="field-long" />
+                    <input type="email" name="email" class="field-long" required />
                 </li>
                 <li>
                     <label>Pour quel mission ?</label>
@@ -47,16 +47,17 @@
                     </select>
                 </li>
                 <li>
-                    <label>Votre message <span class="required">*</span></label>
-                    <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                    <label>Votre message <span class="required" required>*</span></label>
+                    <textarea name="message" class="field-long field-textarea"></textarea>
                 </li>
                 <li>
                     <input type="submit" value="Postuler" />
                 </li>
-            </ul>
+            </ul>   
         </form>
+        <p style="color: red;" id="error"></p>
     </main>
-
+    <script type="text/javascript" src="./web/js/app.js"></script>
 </body>
 
 </html>
