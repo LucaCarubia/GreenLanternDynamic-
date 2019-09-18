@@ -1,53 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+body
+{
+    margin: 0;
+    padding: 0;
+}
 main 
 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-@media (min-width: 768px)
-{
-    main {
-        max-width: 720px;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    .margin-bot-md-40 {
-        margin-bottom: 40px;
-    }
-    .margin-bot-md-80 {
-        margin-bottom: 80px;
-    }
-}
-
-@media (min-width: 1200px)
-{
-    main {
-        max-width: 1140px;
-    }
-    h1 {
-        font-size: 48px;
-    }
-    h2 {
-        font-size: 34px;
-    }
-}
-
 h1
 {
-    font-size: 34px;
+    font-size: 24px;
     color: #2C6012;
     font-family: 'Bangers', cursive;
 }
 h2
 {
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     font-family: 'Bangers', cursive;
 }
@@ -61,6 +34,7 @@ p
 a
 {
     text-decoration: none;
+    color: black;
 }
 
 /* DISPLAY */
@@ -148,4 +122,39 @@ a
 .text-justify
 {
     text-align: justify;
+}
+
+/* Media Queries */
+@media (min-width: 768px)
+{
+    main {
+        max-width: 720px;
+    }
+    .nav-container-md 
+    {
+        width:720px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .margin-bot-md-40 {
+        margin-bottom: 40px;
+    }
+    .margin-bot-md-80 {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    main .nav-container-lg {
+        max-width: 1140px;
+    }
+    .nav-container-lg 
+    {
+        width:1140px;
+    }
 }
