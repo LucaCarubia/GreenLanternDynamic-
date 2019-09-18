@@ -24,6 +24,10 @@ hr
 {
     animation: rotate-center 15s linear infinite both;
 }
+div > h2 > a:hover
+{
+    color: white;
+}
 @keyframes rotate-center {
     0% {
       transform: rotate(0);
