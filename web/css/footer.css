@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+main
+{
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.footerslist h2 a {
+    margin-left: 10px;
+}
+a
+{
+   text-decoration: none;
+   font-size: 24px;
+   color: ;
+   font-family: 'Bangers', cursive;
+}
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: green;
+  }
+.footerslist ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2
+{
+   font-size: 24px;
+   color: ;
+   font-family: 'Bangers', cursive;
+   margin-top:0;
+}
+footer{
+    background-color:lightgray;
+    padding-bottom: 30px;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+}
+.footerslist ul li {
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/*media tablet*/
+@media screen and (min-width: 768px)
+{
+   main {
+       max-width: 720px;
+   }
+}
+/*media desktop*/
+@media screen and (min-width: 1200px)
+{
+   main {
+       max-width: 1140px;
+   }
+   .footerslist {
+    width: 100%;
+       }
+       .footerslist ul{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+       }
+    }
+}

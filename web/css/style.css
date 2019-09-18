@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+main 
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px)
+{
+    main {
+        max-width: 720px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .margin-bot-md-40 {
+        margin-bottom: 40px;
+    }
+    .margin-bot-md-80 {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    main {
+        max-width: 1140px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+}
+
+h1
+{
+    font-size: 34px;
+    color: #2C6012;
+    font-family: 'Bangers', cursive;
+}
+h2
+{
+    font-size: 24px;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+p
+{
+    font-size: 16px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* DISPLAY */
+
+.block
+{
+    display: block;
+}
+
+/* FLEX */
+
+.flex
+{
+    display: flex;
+}
+.flex-column
+{
+    flex-direction: column;
+}
+.space-around
+{
+    justify-content: space-around;
+}
+.space-between
+{
+    justify-content: space-between;
+}
+.flex-h-center, .flex-center
+{
+    justify-content: center;
+}
+.flex-v-center, .flex-center
+{
+    align-items: center;
+}
+.flex-v-start
+{
+    flex-direction: start;
+}
+.flex-v-end
+{
+    flex-direction: end;
+}
+.flex-row-reverse
+{
+    flex-direction: row-reverse
+}
+
+/* WIDTH */
+
+.width-100
+{
+    width: 100%;
+}
+.width-90
+{
+    width: 90%;
+}
+.width-80
+{
+    width: 80%;
+}
+.width-50
+{
+    width: 50%;
+}
+.width-25
+{
+    width: 25%;
+}
+
+/* MARGIN */
+
+.margin-bot-40
+{
+    margin-bottom: 40px;
+}
+.margin-bot-20
+{
+    margin-bottom: 20px;
+}
+
+/* TEXT ALGIN */
+
+.text-justify
+{
+    text-align: justify;
+}
