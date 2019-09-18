@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
-main
+.footerslist
 {
    width: 90%;
    margin-left: auto;
    margin-right: auto;
 }
-.footerslist h2 a {
-    margin-left: 10px;
-}
+
 a
 {
    text-decoration: none;
@@ -48,6 +46,7 @@ h2
    color: ;
    font-family: 'Bangers', cursive;
    margin-top:0;
+   font-weight: normal;
 }
 footer{
     background-color:lightgray;
@@ -67,23 +66,32 @@ footer p{
 /*media tablet*/
 @media screen and (min-width: 768px)
 {
-   main {
+   .footerslist {
        max-width: 720px;
    }
+
+    a {
+        font-size: 34px;
+    }
+    h2{
+    font-size: 34px;
+    }
 }
 /*media desktop*/
 @media screen and (min-width: 1200px)
 {
-   main {
-       max-width: 1140px;
-   }
    .footerslist {
-    width: 100%;
-       }
+       max-width: 1140px;
+    }
        .footerslist ul{
            display: flex;
            flex-direction: row;
            justify-content: space-around;
-       }
+    }
+    a {
+        font-size: 34px;
+    }
+    h2{
+    font-size: 34px;
     }
 }
