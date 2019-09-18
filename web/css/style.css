@@ -7,6 +7,40 @@ main
     margin-left: auto;
     margin-right: auto;
 }
+img {
+    width: 100%;
+}
+h1
+{
+    font-size: 24px;
+    color: #2C6012;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+.missions, .missions13, .mission2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2
+{
+    font-size: 24px;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+p
+{
+    font-size: 16px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+a
+{
+    text-decoration: none;
+}
+
 @media (min-width: 768px)
 {
     main {
@@ -39,29 +73,6 @@ main
     }
 }
 
-h1
-{
-    font-size: 34px;
-    color: #2C6012;
-    font-family: 'Bangers', cursive;
-}
-h2
-{
-    font-size: 24px;
-    color: black;
-    font-family: 'Bangers', cursive;
-}
-p
-{
-    font-size: 16px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-a
-{
-    text-decoration: none;
-}
 
 /* DISPLAY */
 
