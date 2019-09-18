@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+body, h2, ul
+{
+    margin: 0;
+    padding: 0;
+}
 main 
 {
     width: 90%;
@@ -158,10 +163,49 @@ a
 {
     margin-bottom: 20px;
 }
+.margin-top-20
+{
+    margin-top: 20px;
+}
 
 /* TEXT ALGIN */
 
 .text-justify
 {
     text-align: justify;
+}
+
+/* Media Queries */
+@media (min-width: 768px)
+{
+    main {
+        max-width: 720px;
+    }
+    .nav-container-md 
+    {
+        width:720px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .margin-bot-md-40 {
+        margin-bottom: 40px;
+    }
+    .margin-bot-md-80 {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    main .nav-container-lg {
+        max-width: 1140px;
+    }
+    .nav-container-lg 
+    {
+        width:1140px;
+    }
 }
