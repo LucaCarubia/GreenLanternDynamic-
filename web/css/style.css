@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 main 
 {
@@ -11,6 +12,18 @@ main
     main {
         max-width: 720px;
     }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .margin-bot-md-40 {
+        margin-bottom: 40px;
+    }
+    .margin-bot-md-80 {
+        margin-bottom: 80px;
+    }
 }
 
 @media (min-width: 1200px)
@@ -18,25 +31,32 @@ main
     main {
         max-width: 1140px;
     }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 34px;
+    }
 }
 
 h1
 {
     font-size: 34px;
-    color: ;
+    color: #2C6012;
     font-family: 'Bangers', cursive;
 }
 h2
 {
     font-size: 24px;
-    color: ;
+    color: black;
     font-family: 'Bangers', cursive;
 }
 p
 {
     font-size: 16px;
-    color: ;
-    font-family: ;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 a
 {
@@ -117,6 +137,10 @@ a
 .margin-bot-40
 {
     margin-bottom: 40px;
+}
+.margin-bot-20
+{
+    margin-bottom: 20px;
 }
 
 /* TEXT ALGIN */
