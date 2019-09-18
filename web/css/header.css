@@ -20,9 +20,13 @@ hr
 {
     height: 96px;
 }
-#logo:hover
+#logo
 {
     animation: rotate-center 15s linear infinite both;
+}
+div > h2 > a:hover
+{
+    color: white;
 }
 @keyframes rotate-center {
     0% {

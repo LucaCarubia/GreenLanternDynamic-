@@ -26,7 +26,6 @@ p
 {
    font-size: 16px;
    margin-top: 20px;
-   color: ;
    font-family: 'Roboto', sans-serif;
 }
 a
@@ -101,7 +100,7 @@ a
       align-items: center;
    }
    .missions div {
-      width: 720px;
+      width: 1140px;
    }
    .gauche {
       display: flex;
@@ -129,64 +128,3 @@ a
        width: 513px;
    }
 }    
-/* DISPLAY */
-.block
-{
-   display: block;
-}
-/* FLEX */
-.flex
-{
-   display: flex;
-}
-.flex-column
-{
-   flex-direction: column;
-}
-.space-around
-{
-   justify-content: space-around;
-}
-.space-between
-{
-   justify-content: space-between;
-}
-.flex-h-center, .flex-center
-{
-   justify-content: center;
-}
-.flex-v-center, .flex-center
-{
-   align-items: center;
-}
-.flex-v-start
-{
-   flex-direction: start;
-}
-.flex-v-end
-{
-   flex-direction: end;
-}
-.flex-row-reverse
-{
-   flex-direction: row-reverse
-}
-/* WIDTH */
-.width-100
-{
-   width: 100%;
-}
-.width-50
-{
-   width: 50%;
-}
-/* MARGIN */
-.margin-bot-40
-{
-   margin-bottom: 40px;
-}
-/* TEXT ALGIN */
-.text-justify
-{
-   text-align: justify;
-}
