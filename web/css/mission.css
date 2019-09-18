@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Roboto&display=swap');
 main
 {
    width: 90%;
@@ -7,21 +7,26 @@ main
 }
 h1
 {
-   font-size: 34px;
-   color: rgb(65, 182, 75);
-   font-family: 'Bangers', cursive;
-}
-h2
-{
    font-size: 24px;
-   color: rgb(48, 117, 53);
+   color: #2C6012;
    font-family: 'Bangers', cursive;
+   margin-bottom: 20px;
+}
+.missions {
+   margin-bottom: 40px;
+}
+.missions13 {
+   margin-bottom: 40px;
+}
+.mission2 {
+   margin-bottom: 40px;
 }
 p
 {
    font-size: 16px;
+   margin-top: 20px;
    color: ;
-   font-family: ;
+   font-family: 'Roboto', sans-serif;
 }
 a
 {
@@ -38,18 +43,40 @@ a
    main {
        max-width: 1140px;
    }
-   h1 img {
-       width: 720px;
+   h1 {
+      margin-bottom: 40px;
    }
-    .missions13 {
+   .missions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 80px;
+   }
+   .missions div {
+      width: 720px;
+   }
+   .droite {
+      display: flex;
+      justify-content: flex-end;
+   }
+   .missions13 {
         display: flex;
-        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 80px;
     }
     .mission2 {
         display: flex;
         flex-direction: row-reverse;
-        width: 50%;
-        justify-content: flex-end;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 80px;
+    }
+    .missions13 a {
+       width: 513px;
+    }
+    .mission2 a {
+       width: 513px;
     }
 }    
 /* DISPLAY */
