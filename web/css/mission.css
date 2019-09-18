@@ -16,10 +16,6 @@ h1
 .missions {
    margin-bottom: 40px;
 }
-.gauche {
-   display: flex;
-   justify-content: flex-start;
-}
 .missions13 {
    margin-bottom: 40px;
 }
@@ -40,7 +36,49 @@ a
 @media (min-width: 768px)
 {
    main {
-       max-width: 740px;
+       max-width: 720px;
+   }
+   h1 {
+      margin-bottom: 40px;
+      font-size: 48px;
+   }
+   .centre {
+      display: flex;
+      justify-content: center;
+   }
+   .missions {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 80px;
+      align-items: center;
+   }
+   .missions div {
+      width: 720px;
+   }
+   .gauche {
+      display: flex;
+      justify-content: flex-start;
+   }
+   .missions13 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 80px;
+   }
+   .droite {
+      display: flex;
+      justify-content: flex-end;
+   }
+   .mission2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-bottom: 80px;
+   }
+   .missions13 a {
+       width: 300px;
+   }
+   .mission2 a {
+       width: 300px;
    }
 }   
 @media (min-width: 1200px)
@@ -65,27 +103,31 @@ a
    .missions div {
       width: 720px;
    }
-   .droite {
+   .gauche {
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
    }
    .missions13 {
         display: flex;
         justify-content: space-around;
         margin-bottom: 80px;
-    }
-    .mission2 {
+   }
+   .droite {
+      display: flex;
+      justify-content: flex-end;
+   }
+   .mission2 {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
         margin-bottom: 80px;
-    }
-    .missions13 a {
+   }
+   .missions13 a {
        width: 513px;
-    }
-    .mission2 a {
+   }
+   .mission2 a {
        width: 513px;
-    }
+   }
 }    
 /* DISPLAY */
 .block
