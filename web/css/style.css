@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-body
+body, h2, ul
 {
     margin: 0;
     padding: 0;
@@ -115,6 +115,10 @@ a
 .margin-bot-20
 {
     margin-bottom: 20px;
+}
+.margin-top-20
+{
+    margin-top: 20px;
 }
 
 /* TEXT ALGIN */

@@ -1,89 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
-main
-{
-   width: 90%;
-   margin-left: auto;
-   margin-right: auto;
-}
-.footerslist h2 a {
-    margin-left: 10px;
-}
-a
-{
-   text-decoration: none;
-   font-size: 24px;
-   color: ;
-   font-family: 'Bangers', cursive;
-}
 /* unvisited link */
 a:link {
     color: black;
-  }
+}
   
   /* visited link */
-  a:visited {
+a:visited {
     color: green;
-  }
+}
   
   /* mouse over link */
-  a:hover {
+a:hover {
     color: white;
-  }
+}
   
   /* selected link */
-  a:active {
+a:active {
     color: green;
-  }
-.footerslist ul{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-
 }
-
-h2
+.center 
 {
-   font-size: 24px;
-   color: ;
-   font-family: 'Bangers', cursive;
-   margin-top:0;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer{
-    background-color:lightgray;
-    padding-bottom: 30px;
+    background: linear-gradient(#05B31C, #2C6947);
 }
 footer p{
     text-align: center;
-    font-size: 16px;
+    font-size: 10px;
+    padding-bottom: 10px;
 }
-.footerslist ul li {
-    display: block;
-    width: 300px;
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
+.flip:hover {
+	animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@keyframes flip {
+    0% {
+      transform: rotateX(0);
+    }
+    100% {
+      transform: rotateX(-180deg);
+    }
 }
 /*media tablet*/
 @media screen and (min-width: 768px)
 {
-   main {
-       max-width: 720px;
+   .flex-row-md
+   {
+       flex-direction: row;
    }
+   .width-66-md
+   {
+       width: 66.6666%;
+   }
+   .width-33-md
+   {
+       width: 33.3333%;
+   }
+   .flex-h-center-md
+    {
+        justify-content: center;
+    }
+    .margin-left-10-md
+    {
+        margin-left: 10px;
+    }
+    .foot
+    {
+        width: 720px;
+    }
 }
 /*media desktop*/
 @media screen and (min-width: 1200px)
 {
-   main {
-       max-width: 1140px;
-   }
-   .footerslist {
-    width: 100%;
-       }
-       .footerslist ul{
-           display: flex;
-           flex-direction: row;
-           justify-content: space-around;
-       }
+   .foot
+    {
+       width: 1140px;
     }
 }
