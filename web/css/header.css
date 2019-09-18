@@ -20,7 +20,7 @@ hr
 {
     height: 96px;
 }
-#logo:hover
+#logo
 {
     animation: rotate-center 15s linear infinite both;
 }
