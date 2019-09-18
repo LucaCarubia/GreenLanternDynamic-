@@ -1,3 +1,17 @@
+header
+{
+    background: linear-gradient(#2C6947, #05B31C);
+    margin: 0;
+    padding: 0;
+}
+hr
+{
+    border-color: black;
+}
+.white
+{
+    color:white;
+}
 .display-none
 {
     display: none;
@@ -6,6 +20,18 @@
 {
     height: 96px;
 }
+#logo:hover
+{
+    animation: rotate-center 15s linear infinite both;
+}
+@keyframes rotate-center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 #burger
 {
     position: relative;
@@ -13,10 +39,19 @@
     left:50%;
     opacity: 0;
 }
+#menu-burger > h2 > a
+{
+    padding-left : 10%;
+}
 input:checked ~ #menu-burger
 {
-    left:10%;
+    top:96px;
+    left:0;
     transition: 0.5s;
+}
+input:checked + label > hr 
+{
+    border-color: white;
 }
 .menu-burger
 {
@@ -24,10 +59,9 @@ input:checked ~ #menu-burger
     top: 100px;
     left: -100%;
     transition: .5s;
+    background-color: #05B31C;
+    width: 40%;
 }
-label:hover {
-    cursor: pointer;
-  }
 .logo
 {
     height:80px;
