@@ -1,19 +1,49 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./web/css/style.css" type="text/css">
-    <link rel="stylesheet" href="./web/css/joinUs.css" type="text/css">
-    <title>Nous Rejoindre</title>
+    <title>Nos Missions</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./web/css/style.css">
+    <link rel="stylesheet" href="./web/css/header.css">        
+    <link rel="stylesheet" href="web/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="web/css/joinUs.css" media="all" />
 </head>
-
 <body>
+    <header class="width-100 height-96 flex flex-center margin-bot-40 margin-bot-md-80">
+        <nav class="width-90 flex space-between flex-v-center nav-container-md nav-container-lg">
+            <div class="width-25 display-none-md flex flex-center">
+                <input id="burger" type="checkbox"/>
+                <label for="burger" class="width-80 display-none-md">
+                    <hr >
+                    <hr>
+                    <hr>
+                    <hr>
+                    <hr>
+                </label>
+                <div id="menu-burger" class="menu-burger display-none-md">
+                    <h2><a href="./index.html">ACCUEIL</a></h2>
+                    <h2><a href="./mission.html">NOS MISSIONS</a></h2>
+                    <h2><a href="./joinUs.html">REJOIGNEZ-NOUS</a></h2>
+                </div>
+            </div>
+            <h2 class="display-none-md">REJOIGNEZ-NOUS</h2>
+            <div class="width-25 flex">
+                <a href="./index.html">
+                    <img class="logo" src="./web/asset/img/logo-transparent.png" alt="logo des green lantern" id="logo">
+                </a>
+            </div>
+            <div class="display-none flex-md width-50 space-around">
+                    <h2><a href="./index.html">ACCUEIL</a></h2>
+                    <h2><a href="./mission.html">NOS MISSIONS</a></h2>
+                    <h2><a href="./joinUs.html">REJOIGNEZ-NOUS</a></h2>
+            </div>
+        </nav>
+    </header>
     <main>
 
         <h1>Vous souhaitez nous rejoindre ?</h1>
-        <article>
-            <img src="https://via.placeholder.com/1280x1080">
+        <article class="margin-bot-40 margin-bot-md-80">
+            <img class="margin-bot-20 margin-bot-md-40 width-100 height-auto" src="./web/asset/img/joinus.png">
             <p>N'ayez pas peur de partir avec nous afin de sauver la terre ! "Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                 ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -24,8 +54,7 @@
             </p>
         </article>
 
-        <hr>
-        <form name="contact">
+        <form class="margin-bot-40 margin-bot-md-80" name="contact">
             <h1>Formulaire de contact</h1>  
             <ul class="form-style-1">
                 <li><label>Nom Complet <span class="required">*</span></label>
@@ -57,6 +86,23 @@
         </form>
         <p style="color: red;" id="error"></p>
     </main>
+    <footer>
+        <div class="foot flex width-90 center">
+                <div class="flex flex-column space-around flex-v-center width-50 margin-top-20 flex-row-md width-66-md">
+                    <h2><a href="contact@greenlantern.fr">Nous contacter</a></h2>
+                    <h2><a href="Mentions Légales">Mentions Légales</a></h2>   
+                </div>            
+                <div class="flex flex-column space-around flex-v-center width-50 margin-top-20 flex-row-md width-33-md flex-h-center-md">
+                    <h2>Suivez nous!</h2>
+                    <div class="margin-left-10-md">
+                        <a href="https://www.instagram.com/?hl=en"><img class="flip" src="web/asset/img/instagram_logo.png" width="20px" height="20px" title="instagram_logo" alt="Instagram"></a>
+                        <a href="https://www.facebook.com"><img class="flip" src="web/asset/img/facebook_logo.png" width="20px" height="20px" title="facebook_logo" alt="Facebook"></a>
+                        <a href="https://www.linkedin.com"><img class="flip" src="web/asset/img/linkedin_logo.png" width="20px" height="20px" title="linkedin_logo" alt="Linkedin"></a>
+                    </div>
+                </div>            
+        </div>
+        <p>Green Lantern is a trademark of DC Comics - © 2018 DC Entertainment</p>
+    </footer>
     <script type="text/javascript" src="./web/js/formJoinUs.js"></script>
 </body>
 

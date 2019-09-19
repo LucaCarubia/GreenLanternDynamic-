@@ -1,3 +1,7 @@
+a:visited
+{
+    color: black;
+}
 /* unvisited link */
 a:link {
     color: black;
@@ -24,8 +28,13 @@ footer p{
     font-size: 10px;
     padding-bottom: 10px;
 }
+.flip
+{
+    width: 20px;
+    height: 20px;
+}
 .flip:hover {
-	animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;    
 }
 @keyframes flip {
     0% {
