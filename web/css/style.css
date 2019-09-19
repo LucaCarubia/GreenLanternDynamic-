@@ -12,9 +12,6 @@ main
     margin-left: auto;
     margin-right: auto;
 }
-img {
-    width: 100%;
-}
 h1
 {
     font-size: 24px;
@@ -27,11 +24,6 @@ h1
     flex-direction: column;
     align-items: center;
 }
-.liens {
-    align-self: flex-end;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
 h2
 {
     font-size: 24px;
@@ -43,46 +35,20 @@ p
     font-size: 16px;
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
     text-align: justify;
 }
 a
 {
     text-decoration: none;
 }
-
-@media (min-width: 768px)
+hr
 {
-    main {
-        max-width: 720px;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    .margin-bot-md-40 {
-        margin-bottom: 40px;
-    }
-    .margin-bot-md-80 {
-        margin-bottom: 80px;
-    }
+    border-color: black;
 }
-
-@media (min-width: 1200px)
+.link
 {
-    main {
-        max-width: 1140px;
-    }
-    h1 {
-        font-size: 48px;
-    }
-    h2 {
-        font-size: 34px;
-    }
+    color: #05B31C; 
 }
-
 
 /* DISPLAY */
 
@@ -117,13 +83,13 @@ a
 {
     align-items: center;
 }
-.flex-v-start
+.flex-start
 {
-    flex-direction: start;
+    justify-content: flex-start;
 }
-.flex-v-end
+.flex-end
 {
-    flex-direction: end;
+    justify-content: flex-end;
 }
 .flex-row-reverse
 {
@@ -153,6 +119,13 @@ a
     width: 25%;
 }
 
+/* HEIGHT */
+
+.height-auto
+{
+    height: auto;
+}
+
 /* MARGIN */
 
 .margin-bot-40
@@ -179,7 +152,7 @@ a
 @media (min-width: 768px)
 {
     main {
-        max-width: 720px;
+        width: 720px;
     }
     .nav-container-md 
     {
@@ -197,15 +170,41 @@ a
     .margin-bot-md-80 {
         margin-bottom: 80px;
     }
+    .flex-md
+    {
+        display: flex;
+    }
+    .flex-start-md
+    {
+        justify-content: flex-start;
+    }
+    .flex-end-md
+    {
+        justify-content: flex-end;
+    }
+    .space-between-md
+    {
+        justify-content: space-between;
+    }
+    .flex-row-reverse-md
+    {
+        flex-direction: row-reverse
+    }
+    .width-50-md
+    {
+        width: 48%;
+    }
 }
 
 @media (min-width: 1200px)
 {
-    main .nav-container-lg {
-        max-width: 1140px;
+    main
+    {
+        width: 1140px;
     }
     .nav-container-lg 
     {
         width:1140px;
     }
 }
+
