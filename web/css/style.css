@@ -49,6 +49,9 @@ hr
 {
     color: #05B31C; 
 }
+.texte {
+    display: none;
+}
 
 /* DISPLAY */
 
@@ -194,6 +197,9 @@ hr
     {
         width: 48%;
     }
+    .texte {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px)
@@ -206,5 +212,38 @@ hr
     {
         width:1140px;
     }
+    .container {
+        position: relative;
+    }
+    .img {
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .overlay {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .container:hover .img {
+        opacity: 0.3;
+    }
+    .container:hover .overlay {
+        opacity: 1;
+    }
+    .texte {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: black;
+        background-color: #EAECA8;
+        display: contents;
+    }
+
 }
 
