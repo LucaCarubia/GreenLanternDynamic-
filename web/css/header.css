@@ -68,8 +68,8 @@ input:checked + label > hr
 }
 .logo
 {
-    height:80px;
-    width: 80px;
+    height:60px;
+    width: 60px;
 }
 .center
 {
@@ -92,5 +92,10 @@ input:checked + label > hr
     .order-1
     {
         align-self: flex-start;
+    }
+    .logo
+    {
+        height:80px;
+        width: 80px;
     }
 }
