@@ -46,6 +46,7 @@ div > h2 > a:hover
 #menu-burger > h2 > a
 {
     padding-left : 10%;
+    font-size: 18px;
 }
 input:checked ~ #menu-burger
 {
@@ -65,6 +66,7 @@ input:checked + label > hr
     transition: .5s;
     background-color: #05B31C;
     width: 40%;
+    z-index: 1000;
 }
 .logo
 {
