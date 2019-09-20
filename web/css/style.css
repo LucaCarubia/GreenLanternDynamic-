@@ -90,6 +90,7 @@ div#slider figure
     100% {
         left: 0;
     }
+}
 .texte {
     display: none;
 }
@@ -305,14 +306,6 @@ div#slider figure
     .nav-container-lg 
     {
         width:1140px;
-    }
-    .scale-out
-    {
-        transition: transform 0.5s;
-    }
-    .scale-out:hover
-    {
-        transform: scale(1.1);
     }
     .container {
         position: relative;
