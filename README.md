@@ -1,2 +1,3 @@
-# GreenLantern
-Premier projet chez la Wild Code School d'une application statique sur le thème "green"
+# GreenLanternDynamic
+Deuxième projet solo chez la Wild Code School ou j'ai repris le premier projet statique pour le rendre dynamique avec PHP et SQL. 
+
