@@ -1,10 +1,14 @@
+<?php
+include 'datas.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <title>Nos Missions</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="./web/css/style.css">
-    <link rel="stylesheet" href="./web/css/header.css">        
+    <link rel="stylesheet" href="./web/css/header.css">
     <link rel="stylesheet" href="web/css/footer.css">
 </head>
 <body>
@@ -41,7 +45,11 @@
     
   <main>
     <div class="margin-top-20 margin-bot-md-40">
-      <h1 class="flex flex-h-center vibrate-1">Nos Missions</h1> 
+      <h1 class="flex flex-h-center vibrate-1">
+          <?php
+          echo $titleMain['ourMissions'];
+          ?>
+      </h1>
     </div>
     <div class="margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100">
@@ -55,7 +63,11 @@
         
       
     <div class="flex flex-h-center flex-start-md margin-bot-20 margin-bot-md-40">
-      <h1 class="vibrate-1">Replanter des arbres</h1>
+      <h1 class="vibrate-1">
+          <?php
+          echo $titleMain['replantTree'];
+          ?>
+      </h1>
     </div>  
     <div class="flex-md space-between-md margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100 width-50-md container">
@@ -72,7 +84,11 @@
     </div>
 
     <div class="flex flex-h-center flex-start-md margin-bot-20 margin-bot-md-40">
-      <h1 class="vibrate-1">Recuperer les dechets dans les oceans</h1>
+      <h1 class="vibrate-1">
+          <?php
+            echo $titleMain['collectWaste'];
+          ?>
+      </h1>
     </div>
     <div class="flex-md space-between-md flex-row-reverse-md margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100 width-50-md container">
@@ -88,7 +104,11 @@
     </div>
 
     <div class="flex flex-h-center flex-start-md margin-bot-20 margin-bot-md-40">
-      <h1 class="vibrate-1">Creation d'energie verte</h1> 
+      <h1 class="vibrate-1">
+          <?php
+            echo $titleMain['greenEnergy'];
+          ?>
+      </h1>
     </div>
     <div class="flex-md space-between-md margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100 width-50-md container">
