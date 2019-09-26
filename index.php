@@ -23,7 +23,7 @@ include 'header.php';
     <div class="margin-bot-20 margin-bot-md-40">
         <h1 class="flex flex-h-center vibrate-1">
             <?php
-                echo $titleMain['whoAreGreen'];
+            echo $titleMain['whoAreGreen'];
             ?>
         </h1>
     </div>
