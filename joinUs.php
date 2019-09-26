@@ -1,10 +1,10 @@
 <?php
-include 'datas.php';
+include 'header.php';
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Nos Missions</title>
+    <title>Rejoignez-Nous</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="./web/css/style.css">
     <link rel="stylesheet" href="./web/css/header.css">
@@ -12,38 +12,7 @@ include 'datas.php';
     <link rel="stylesheet" type="text/css" href="web/css/joinUs.css" media="all"/>
 </head>
 <body>
-<header class="width-100 height-96 flex flex-center margin-bot-40 margin-bot-md-80">
-    <nav class="width-90 flex space-between flex-v-center nav-container-md nav-container-lg">
-        <div class="width-25 display-none-md flex flex-center">
-            <input id="burger" type="checkbox"/>
-            <label for="burger" class="width-60 display-none-md">
-                <hr>
-                <hr>
-                <hr>
-                <hr>
-                <hr>
-            </label>
-            <div id="menu-burger" class="menu-burger display-none-md">
-                <h2><a href="index.php">ACCUEIL</a></h2>
-                <h2><a href="mission.php">NOS MISSIONS</a></h2>
-                <h2><a href="joinUs.php">REJOIGNEZ-NOUS</a></h2>
-            </div>
-        </div>
-        <h2 class="display-none-md">REJOIGNEZ-NOUS</h2>
-        <div class="width-25 flex">
-            <a href="./index.php">
-                <img class="logo" src="./web/asset/img/logo-transparent.png" alt="logo des green lantern" id="logo">
-            </a>
-        </div>
-        <div class="display-none flex-md width-50 space-around">
-            <h2><a href="./index.php">ACCUEIL</a></h2>
-            <h2><a href="mission.php">NOS MISSIONS</a></h2>
-            <h2><a href="joinUs.php">REJOIGNEZ-NOUS</a></h2>
-        </div>
-    </nav>
-</header>
 <main>
-
     <h1 class="vibrate-1">
         <?php
         echo $titleMain['wantToJoinUs'];
@@ -95,27 +64,9 @@ include 'datas.php';
     </form>
     <p style="color: red;" id="error"></p>
 </main>
-<footer>
-    <div class="foot flex width-90 center">
-        <div class="flex flex-column space-around flex-v-center width-50 margin-top-20 flex-row-md width-66-md">
-            <h2><a href="contact@greenlantern.fr">Nous contacter</a></h2>
-            <h2><a href="Mentions Légales">Mentions Légales</a></h2>
-        </div>
-        <div class="flex flex-column space-around flex-v-center width-50 margin-top-20 flex-row-md width-33-md flex-h-center-md">
-            <h2>Suivez nous!</h2>
-            <div class="margin-left-10-md">
-                <a href="https://www.instagram.com/?hl=en"><img class="flip" src="web/asset/img/instagram_logo.png"
-                                                                width="20px" height="20px" title="instagram_logo"
-                                                                alt="Instagram"></a>
-                <a href="https://www.facebook.com"><img class="flip" src="web/asset/img/facebook_logo.png" width="20px"
-                                                        height="20px" title="facebook_logo" alt="Facebook"></a>
-                <a href="https://www.linkedin.com"><img class="flip" src="web/asset/img/linkedin_logo.png" width="20px"
-                                                        height="20px" title="linkedin_logo" alt="Linkedin"></a>
-            </div>
-        </div>
-    </div>
-    <p>Green Lantern is a trademark of DC Comics - © 2018 DC Entertainment</p>
-</footer>
+<?php
+include 'footer.php';
+?>
 <script type="text/javascript" src="./web/js/formJoinUs.js"></script>
 </body>
 
