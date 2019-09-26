@@ -1,10 +1,14 @@
+<?php
+include 'datas.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <title>Nos Missions</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="./web/css/style.css">
-    <link rel="stylesheet" href="./web/css/header.css">        
+    <link rel="stylesheet" href="./web/css/header.css">
     <link rel="stylesheet" href="web/css/footer.css">
 </head>
 <body>
@@ -20,28 +24,32 @@
                   <hr>
               </label>
               <div id="menu-burger" class="menu-burger display-none-md">
-                  <h2><a href="./index.html">ACCUEIL</a></h2>
-                  <h2><a href="./mission.html">NOS MISSIONS</a></h2>
-                  <h2><a href="./joinUs.html">REJOIGNEZ-NOUS</a></h2>
+                  <h2><a href="index.php">ACCUEIL</a></h2>
+                  <h2><a href="mission.php">NOS MISSIONS</a></h2>
+                  <h2><a href="joinUs.php">REJOIGNEZ-NOUS</a></h2>
               </div>
           </div>
           <h2 class="display-none-md">NOS MISSIONS</h2>
           <div class="width-25 flex">
-              <a href="./index.html">
+              <a href="./index.php">
                   <img class="logo" src="./web/asset/img/logo-transparent.png" alt="logo des green lantern" id="logo">
               </a>
           </div>
           <div class="display-none flex-md width-50 space-around">
-                  <h2><a href="./index.html">ACCUEIL</a></h2>
-                  <h2><a href="./mission.html">NOS MISSIONS</a></h2>
-                  <h2><a href="./joinUs.html">REJOIGNEZ-NOUS</a></h2>
+                  <h2><a href="./index.php">ACCUEIL</a></h2>
+                  <h2><a href="mission.php">NOS MISSIONS</a></h2>
+                  <h2><a href="joinUs.php">REJOIGNEZ-NOUS</a></h2>
           </div>
       </nav>
   </header>
     
   <main>
     <div class="margin-top-20 margin-bot-md-40">
-      <h1 class="flex flex-h-center vibrate-1">Nos Missions</h1> 
+      <h1 class="flex flex-h-center vibrate-1">
+          <?php
+          echo $titleMain['ourMissions'];
+          ?>
+      </h1>
     </div>
     <div class="margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100">
@@ -55,7 +63,11 @@
         
       
     <div class="flex flex-h-center flex-start-md margin-bot-20 margin-bot-md-40">
-      <h1 class="vibrate-1">Replanter des arbres</h1>
+      <h1 class="vibrate-1">
+          <?php
+          echo $titleMain['replantTree'];
+          ?>
+      </h1>
     </div>  
     <div class="flex-md space-between-md margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100 width-50-md container">
@@ -72,7 +84,11 @@
     </div>
 
     <div class="flex flex-h-center flex-start-md margin-bot-20 margin-bot-md-40">
-      <h1 class="vibrate-1">Recuperer les dechets dans les oceans</h1>
+      <h1 class="vibrate-1">
+          <?php
+            echo $titleMain['collectWaste'];
+          ?>
+      </h1>
     </div>
     <div class="flex-md space-between-md flex-row-reverse-md margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100 width-50-md container">
@@ -88,7 +104,11 @@
     </div>
 
     <div class="flex flex-h-center flex-start-md margin-bot-20 margin-bot-md-40">
-      <h1 class="vibrate-1">Creation d'energie verte</h1> 
+      <h1 class="vibrate-1">
+          <?php
+            echo $titleMain['greenEnergy'];
+          ?>
+      </h1>
     </div>
     <div class="flex-md space-between-md margin-bot-40 margin-bot-md-80">
       <div class="margin-bot-20 margin-bot-md-40 width-100 width-50-md container">
