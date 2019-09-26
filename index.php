@@ -21,7 +21,11 @@ include 'header.php';
         </figure>
     </div>
     <div class="margin-bot-20 margin-bot-md-40">
-        <h1 class="flex flex-h-center vibrate-1">Qui sont les Green Lanterns ?</h1>
+        <h1 class="flex flex-h-center vibrate-1">
+            <?php
+                echo $titleMain['whoAreGreen'];
+            ?>
+        </h1>
     </div>
     <div class="margin-bot-40 margin-bot-md-80">
         <div class="margin-bot-20 margin-bot-md-40 width-100">
@@ -35,7 +39,11 @@ include 'header.php';
     </div>
 
     <div class="margin-bot-20 margin-bot-md-40">
-        <h1 class="flex flex-h-center vibrate-1">Nos Missions</h1>
+        <h1 class="flex flex-h-center vibrate-1">
+            <?php
+            echo $titleMain['ourMissions'];
+            ?>
+        </h1>
     </div>
     <div class="margin-bot-40 margin-bot-md-80">
         <div class="margin-bot-20 margin-bot-md-40 width-100">
@@ -53,7 +61,11 @@ include 'header.php';
     </div>
 
     <div class="margin-bot-20 margin-bot-md-40">
-        <h1 class="flex flex-h-center vibrate-1">Rejoignez-nous !</h1>
+        <h1 class="flex flex-h-center vibrate-1">
+            <?php
+            echo $titleMain['joinUs'];
+            ?>
+        </h1>
     </div>
     <div class="margin-bot-40 margin-bot-md-80">
         <div class="margin-bot-20 margin-bot-md-40 width-100">
