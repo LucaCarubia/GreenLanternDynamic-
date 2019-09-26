@@ -1,11 +1,18 @@
+<?php
+include 'datas.php';
+?>
 <footer>
     <div class="foot flex width-90 center">
         <div class="flex flex-column space-around flex-v-center width-50 margin-top-20 flex-row-md width-66-md">
-            <h2><a href="contact@greenlantern.fr">Nous contacter</a></h2>
-            <h2><a href="Mentions Légales">Mentions Légales</a></h2>
+            <?php
+                echo "<h2><a href=".$footerLinks['contactUs'] .">Nous contacter</a></h2>";
+                echo "<h2><a href=#>".$footerLinks['legalNotice']."</a></h2>";
+            ?>
         </div>
         <div class="flex flex-column space-around flex-v-center width-50 margin-top-20 flex-row-md width-33-md flex-h-center-md">
-            <h2>Suivez nous!</h2>
+            <?php
+            echo "<h2>".$footerLinks['followUs']."</h2>";
+            ?>
             <div class="margin-left-10-md">
                 <a href="https://www.instagram.com/?hl=en"><img class="flip" src="web/asset/img/instagram_logo.png"
                                                                 title="instagram_logo" alt="Instagram"></a>
