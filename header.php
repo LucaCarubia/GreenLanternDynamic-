@@ -24,9 +24,10 @@ require_once 'datas.php'
         </div>
         <h2 class="display-none-md">GREEN LANTERNS</h2>
         <div class="width-25 flex">
-            <a href="index.php">
-                <img class="logo" src="./web/asset/img/logo-transparent.png" alt="logo des green lantern" id="logo">
-            </a>
+            <?php
+            echo
+                "<a href=".$items['Accueil'][0]."><img class=\"logo\" src=\"./web/asset/img/logo-transparent.png\" alt=\"logo des green lantern\" id=\"logo\"></a>";
+            ?>
         </div>
         <div class="display-none flex-md width-50 space-around">
             <?php
