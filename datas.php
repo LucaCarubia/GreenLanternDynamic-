@@ -16,9 +16,9 @@ $footerLinks = [
 
 // Social network of footer
 $socialsNetwork = [
-    'insta' => 'https://www.instagram.com/?hl=en',
-    'facebook' => 'https://www.facebook.com',
-    'linkedin' => 'https://www.linkedin.com',
+    'insta' => ['https://www.instagram.com/?hl=en', 'web/asset/img/instagram_logo.png'],
+    'facebook' => ['https://www.facebook.com', 'web/asset/img/facebook_logo.png'],
+    'linkedin' => ['https://www.linkedin.com', 'web/asset/img/linkedin_logo.png'],
 ];
 
 // Resume text of index page
@@ -38,4 +38,10 @@ $titleMain = [
     'greenEnergy' => 'Creation d\'energie verte',
     'wantToJoinUs' => 'Vous souhaitez nous rejoindre ?',
     'contactForm' => 'Formulaire de contact',
+];
+
+// Links of home page
+$linksHomePage = [
+ 'mission' => ['mission.php', 'Découvre sans attendre les missions disponibles !'],
+    'joinUs' => ['joinUs.php', 'Deviens un Green !'],
 ];

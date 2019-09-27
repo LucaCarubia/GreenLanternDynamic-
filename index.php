@@ -55,8 +55,9 @@ include 'header.php';
             ?>
         </div>
         <div class="flex flex-end">
-            <a class="link" href="mission.php"><h2 class="link">Découvre sans attendre les missions disponibles !</h2>
-            </a>
+            <?php
+           echo "<a class=\"link\" href=".$linksHomePage['mission'][0]."><h2 class=\"link\">".$linksHomePage['mission'][1]."</h2></a>";
+            ?>
         </div>
     </div>
 
@@ -77,7 +78,9 @@ include 'header.php';
             ?>
         </div>
         <div class="flex flex-end">
-            <a href="joinUs.php"><h2 class="link">Deviens un Green !</h2></a>
+            <?php
+            echo "<a href=".$linksHomePage['joinUs'][0]."><h2 class=\"link\">". $linksHomePage['joinUs'][1] ."</h2></a>"
+            ?>
         </div>
     </div>
 </main>
