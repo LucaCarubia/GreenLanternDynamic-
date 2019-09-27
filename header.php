@@ -1,5 +1,6 @@
 <?php
-require_once 'datas.php'
+require_once 'datas.php';
+require_once 'functions.php';
 ?>
 <header class="width-100 height-96 flex flex-center margin-bot-40 margin-bot-md-80">
     <nav class="width-90 flex space-between flex-v-center nav-container-md nav-container-lg">

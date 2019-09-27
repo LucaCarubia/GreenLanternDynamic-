@@ -64,3 +64,9 @@ $textImage = [
 
     'textGreenEnergy' => 'En 2018 c’est près de 1,54 millions de m³ qui sont stockés rien qu’en France.',
 ];
+
+$titleHead = [
+    '/index.php' => 'Accueil',
+    '/mission.php' => 'Nos Missions',
+    '/joinUs.php' => 'Nous Rejoindre',
+];
