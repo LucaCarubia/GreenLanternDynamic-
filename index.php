@@ -4,7 +4,7 @@ include 'header.php';
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Green Lantern : Parceque le vert ça vous concerne</title>
+    <title><?php echo getCurrentTitle($titleHead);?></title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="./web/css/style.css">
     <link rel="stylesheet" href="./web/css/header.css">
@@ -56,7 +56,7 @@ include 'header.php';
         </div>
         <div class="flex flex-end">
             <?php
-           echo "<a class=\"link\" href=".$linksHomePage['mission'][0]."><h2 class=\"link\">".$linksHomePage['mission'][1]."</h2></a>";
+            echo "<a class=\"link\" href=" . $linksHomePage['mission'][0] . "><h2 class=\"link\">" . $linksHomePage['mission'][1] . "</h2></a>";
             ?>
         </div>
     </div>
@@ -79,7 +79,7 @@ include 'header.php';
         </div>
         <div class="flex flex-end">
             <?php
-            echo "<a href=".$linksHomePage['joinUs'][0]."><h2 class=\"link\">". $linksHomePage['joinUs'][1] ."</h2></a>"
+            echo "<a href=" . $linksHomePage['joinUs'][0] . "><h2 class=\"link\">" . $linksHomePage['joinUs'][1] . "</h2></a>"
             ?>
         </div>
     </div>
