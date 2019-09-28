@@ -5,7 +5,7 @@ include 'header.php';
 <html lang="fr">
 <head>
     <title>Rejoignez-Nous</title>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8"/> 
     <link rel="stylesheet" href="./web/css/style.css">
     <link rel="stylesheet" href="./web/css/header.css">
     <link rel="stylesheet" href="web/css/footer.css">
@@ -66,7 +66,5 @@ include 'header.php';
 <?php
 include 'footer.php';
 ?>
-<script type="text/javascript" src="./web/js/formJoinUs.js"></script>
 </body>
-
 </html>
