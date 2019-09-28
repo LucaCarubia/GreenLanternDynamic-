@@ -28,7 +28,7 @@ include 'header.php';
         </p>
     </article>
 
-    <form class="margin-bot-40 margin-bot-md-80" name="contact">
+    <form class="margin-bot-40 margin-bot-md-80" name="contact" action="formProcessing.php" method="POST">
         <h1 class="vibrate-1">
             <?php
             echo $titleMain['contactForm'];
@@ -36,25 +36,24 @@ include 'header.php';
         </h1>
         <ul class="form-style-1">
             <li><label>Nom Complet <span class="required">*</span></label>
-                <input type="text" name="firstName" required
+                <input type="text" name="firstName"
                        class="field-divided" placeholder="Nom"/>
-                <input type="text" name="lastName" required
+                <input type="text" name="lastName"
                        class="field-divided" placeholder="Prénom"/></li>
             <li>
                 <label>Email <span class="required">*</span></label>
-                <input type="email" name="email" class="field-long" required/>
+                <input type="email" name="email" class="field-long"/>
             </li>
             <li>
                 <label>Pour quel mission ?</label>
-                <select name="field4" class="field-select">
-                    <option value="Replanter des arbres">Replanter des arbres</option>
-                    <option value="Récuperer les déchets dans les océans">Récuperer les déchets dans les océans
-                    </option>
-                    <option value="Création d'energie verte">Création d'energie verte</option>
+                <select name="choice" class="field-select">
+                    <option value="1">Replanter des arbres</option>
+                    <option value="2">Récuperer les déchets dans les océans</option>
+                    <option value="3">Création d'energie verte</option>
                 </select>
             </li>
             <li>
-                <label>Votre message <span class="required" required>*</span></label>
+                <label>Votre message <span class="required">*</span></label>
                 <textarea name="message" class="field-long field-textarea"></textarea>
             </li>
             <li>

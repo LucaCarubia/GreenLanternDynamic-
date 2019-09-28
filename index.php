@@ -15,9 +15,11 @@ include 'header.php';
 <main>
     <div id="slider" class="margin-bot-20 margin-bot-md-40 width-100">
         <figure>
-            <img class="width-33 height-auto" src="./web/asset/img/banner1.jpg">
-            <img class="width-33 height-auto" src="./web/asset/img/banner.png">
-            <img class="width-33 height-auto" src="./web/asset/img/banner2.jpg">
+            <?php
+            foreach ($bannerLinkHomePage as $key => $value) {
+                echo "<img class=\"width-33 height-auto\" src=".$value.">";
+            }
+            ?>
         </figure>
     </div>
     <div class="margin-bot-20 margin-bot-md-40">
