@@ -46,7 +46,8 @@ include 'header.php';
             </li>
             <li>
                 <label>Pour quel mission ?</label>
-                <select name="choice" class="field-select">
+                <select name="mission" class="field-select">
+                    <option disabled selected value></option>
                     <option value="1">Replanter des arbres</option>
                     <option value="2">Récuperer les déchets dans les océans</option>
                     <option value="3">Création d'energie verte</option>
@@ -57,7 +58,7 @@ include 'header.php';
                 <textarea name="message" class="field-long field-textarea"></textarea>
             </li>
             <li>
-                <input type="submit" value="Postuler"/>
+                <input type="submit" value="Postuler" name="submit_form"/>
             </li>
         </ul>
     </form>
